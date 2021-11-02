@@ -9,11 +9,16 @@ class ExampleClass {
   late String name;
 
   // this is the normal way we initialize instance variables
-  //ExampleClass(this.age, this.name);
+  // ExampleClass(this.age, this.name);
 
-  // named constructor
+  // constructor
   ExampleClass(a, n) {
     this.age = a;
     this.name = n;
+  }
+
+  // named constructor
+  ExampleClass.fromAge(a) {
+    this.age;
   }
 }
