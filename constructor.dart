@@ -4,6 +4,7 @@ void main() {
 }
 
 class ExampleClass {
+  // using late keyword to tell comiler that the variable will be initalized
   late int age;
   late String name;
 
