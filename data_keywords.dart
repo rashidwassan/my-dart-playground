@@ -14,6 +14,7 @@ void main() {
 
   final variable2;
   variable2 = 'This value is final and won\'t be changed';
+  //variable2 = 'New val'; this will generate a compile time error
 
   dynamic variable3;
   const variable4 = 0;
