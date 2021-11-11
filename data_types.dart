@@ -5,4 +5,14 @@ void main() {
   num number = 1;
   // num can be assigned int or double value.
   number = 2.0;
+
+  // double is the data type which can hold decimal values
+  double price = 4.5;
+  price = 5;
+  print(price);
+
+  int integer = 1;
+  // what if we assign a decimal value to an int
+  // the following line will generate error
+  // integer = 2.5;
 }
